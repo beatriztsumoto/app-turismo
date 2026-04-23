@@ -1,165 +1,42 @@
 [
-  { 
-    "id": 1, 
-    "tipo": "hero", 
-    "titulo": "Onde o Surf Encontra o Refúgio.", 
-    "subtitulo": "Explore as melhores ondas do litoral norte paulista.", 
-    "imagem": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1200&q=80", 
-    "tag": "DESTAQUE DO DIA" 
+  {
+    "id": 1,
+    "nome": "Museu Britânico",
+    "descricao": "Um dos maiores e mais completos museus do mundo.",
+    "descricaoCompleta": "O Museu Britânico é um dos maiores e mais completos museus do mundo, abrigando mais de 8 milhões de objetos que contam a história da humanidade ao longo de dois milhões de anos. Localizado no coração de Londres, o museu oferece entrada gratuita e recebe cerca de 6 milhões de visitantes por ano. Destaque para a Pedra de Roseta, as múmias egípcias e os Mármores de Elgin.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/British_Museum_from_NE_2.JPG/1200px-British_Museum_from_NE_2.JPG",
+    "localizacao": "Great Russell St, London WC1B 3DG, Reino Unido"
   },
-  { 
-    "id": 101, 
-    "tipo": "ponto", 
-    "nome": "Canto do Moreira", 
-    "descricaoCurta": "O pico das ondas perfeitas.", 
-    "descricaoCompleta": "A área mais famosa de Maresias para surfistas experientes. Ondas tubulares e fortes. Ótimo também para assistir campeonatos.", 
-    "imagem": "https://images.unsplash.com/photo-1520116468816-95b69f847357?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Extremo Direito da Praia" 
+  {
+    "id": 2,
+    "nome": "Palácio de Buckingham",
+    "descricao": "Residência oficial e principal local de trabalho do monarca britânico.",
+    "descricaoCompleta": "O Palácio de Buckingham é a residência oficial e o principal local de trabalho do monarca britânico em Londres. O palácio é o centro da vida constitucional e da hospitalidade da nação. Com 775 aposentos, incluindo 19 salas de estado, 52 quartos reais, 188 quartos para funcionários, 92 escritórios e 78 banheiros, o palácio recebe visitantes durante o verão quando a família real está em Balmoral.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Buckingham_Palace%2C_London_-_April_2009.jpg/1200px-Buckingham_Palace%2C_London_-_April_2009.jpg",
+    "localizacao": "Westminster, London SW1A 1AA, Reino Unido"
   },
-  { 
-    "id": 201, 
-    "tipo": "restaurante", 
-    "nome": "Nami Sushi Maresias", 
-    "descricaoCurta": "Japonês premium pé na areia.", 
-    "descricaoCompleta": "Culinária japonesa sofisticada com peixes frescos locais e vista deslumbrante para o mar.", 
-    "imagem": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Av. Francisco Loup, 1100" 
+  {
+    "id": 3,
+    "nome": "Museu de História Natural",
+    "descricao": "Um museu de história natural em South Kensington, Londres.",
+    "descricaoCompleta": "O Museu de História Natural de Londres é um dos museus mais visitados do mundo, com mais de 80 milhões de espécimes de história natural em suas coleções. O edifício em si, com sua arquitetura neo-românica do século XIX, é um espetáculo. O museu conta com o famoso esqueleto de dinossauro Hope, a baleia azul em tamanho real e exibições interativas sobre a evolução da vida na Terra.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Natural_History_Museum_London_Jan_2006.jpg/1200px-Natural_History_Museum_London_Jan_2006.jpg",
+    "localizacao": "Cromwell Rd, London SW7 5BD, Reino Unido"
   },
-  { 
-    "id": 102, 
-    "tipo": "ponto", 
-    "nome": "Trilha Paúba-Maresias", 
-    "descricaoCurta": "Vista panorâmica incrível.", 
-    "descricaoCompleta": "Uma trilha leve que liga as duas praias, passando pelo mirante com a melhor vista da região. Perfeito para fotos no pôr do sol.", 
-    "imagem": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Início na Rua Nova Iguaçu" 
+  {
+    "id": 4,
+    "nome": "St. James's Park",
+    "descricao": "O parque real mais antigo de Londres, no coração da cidade.",
+    "descricaoCompleta": "St. James's Park é o parque real mais antigo de Londres, situado no coração da cidade. Com 23 hectares, o parque oferece vistas deslumbrantes para o Palácio de Buckingham, o Horse Guards e a London Eye. O lago central abriga pelicanos, patos e outros pássaros. É o lugar perfeito para um piquenique, uma caminhada relaxante ou simplesmente apreciar a natureza no meio da agitada capital britânica.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/St_Jamess_Park_London.jpg/1200px-St_Jamess_Park_London.jpg",
+    "localizacao": "London SW1A 2BJ, Reino Unido"
   },
-  { 
-    "id": 202, 
-    "tipo": "restaurante", 
-    "nome": "Os Alemães", 
-    "descricaoCurta": "Tradição e porções generosas.", 
-    "descricaoCompleta": "Restaurante clássico com buffet variado e pratos à la carte. Famoso pelas porções de frutos do mar bem servidas.", 
-    "imagem": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Av. Francisco Loup, 991" 
-  },
-  { 
-    "id": 301, 
-    "tipo": "clima", 
-    "temp": "28°C", 
-    "ondas": "4-6 ft", 
-    "mare": "Baixa 14:30" 
-  },
-  {  
-    "id": 103, 
-    "tipo": "ponto", 
-    "nome": "Cachoeira da Pedra Branca", 
-    "descricaoCurta": "Refúgio de água doce na mata.", 
-    "descricaoCompleta": "Acesso por trilha média, uma linda queda d'água com poço para banho cercado pela Mata Atlântica.", 
-    "imagem": "https://images.unsplash.com/photo-1546948630-1149ea60dc86?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Estrada do Rio Pardo, s/n" 
-  },
-  { 
-    "id": 203, 
-    "tipo": "restaurante", 
-    "nome": "Guadalupe", 
-    "descricaoCurta": "Tacos, Tequila e Surf Culture.", 
-    "descricaoCompleta": "Ambiente descontraído, ideal para jovens. Serve culinária mexicana e drinks variados.", 
-    "imagem": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Rua Sebastião R. César, 44" 
-  },
-  { 
-    "id": 104, 
-    "tipo": "ponto", 
-    "nome": "Praça do Surf", 
-    "descricaoCurta": "O coração de Maresias.", 
-    "descricaoCompleta": "Ponto de encontro central, com pista de skate, parquinho e local de eventos culturais.", 
-    "imagem": "https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Av. Francisco Loup, s/n" 
-  },
-  { 
-    "id": 204, 
-    "tipo": "restaurante", 
-    "nome": "Sorveteria Rochinha", 
-    "descricaoCurta": "Os picolés mais famosos do litoral.", 
-    "descricaoCompleta": "Clássico picolé do litoral paulista. Variedade imensa de sabores de frutas e cremosos.", 
-    "imagem": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Rua Nova Iguaçu, 20" 
-  },
-  { 
-    "id": 401, 
-    "tipo": "newsletter" 
-  },
-  { 
-    "id": 105, 
-    "tipo": "ponto", 
-    "nome": "Mirante das Galhetas", 
-    "descricaoCurta": "Pôr do sol cinematográfico.", 
-    "descricaoCompleta": "Mirante na estrada sentido Boiçucanga. Vista total das ilhas e do mar aberto.", 
-    "imagem": "https://images.unsplash.com/photo-1471922694854-ff1b63b20054?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "SP-055, Km 162" 
-  },
-  { 
-    "id": 205, 
-    "tipo": "restaurante", 
-    "nome": "Restaurante do Polaco", 
-    "descricaoCurta": "Frutos do mar simples e fresco.", 
-    "descricaoCompleta": "Ambiente familiar, preços justos e peixes grelhados na hora.", 
-    "imagem": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Rua Sebastião R. César, 100" 
-  },
-  { 
-    "id": 106, 
-    "tipo": "ponto", 
-    "nome": "Praia de Maresias (Geral)", 
-    "descricaoCurta": "5km de areia branca e badalação.", 
-    "descricaoCompleta": "A praia principal, com estrutura de quiosques, hotéis e o mar lindo para banho ou surf.", 
-    "imagem": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Av. Dr. Francisco Loup" 
-  },
-  { 
-    "id": 206, 
-    "tipo": "restaurante", 
-    "nome": "Empanadas Tucumanas", 
-    "descricaoCurta": "Sabor argentino em Maresias.", 
-    "descricaoCompleta": "Pequeno quiosque famoso pelas empanadas autênticas e alfajores artesanais.", 
-    "imagem": "https://images.unsplash.com/photo-1606131731446-5568d87113aa?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Beco das Cores" 
-  },
-  { 
-    "id": 107, 
-    "tipo": "ponto", 
-    "nome": "Beco das Cores", 
-    "descricaoCurta": "Arte urbana e lojinhas charmosas.", 
-    "descricaoCompleta": "Um corredor decorado com grafites, ideal para passear à noite e comprar artesanato local.", 
-    "imagem": "https://images.unsplash.com/photo-1555529771-835f59fc5efe?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Rua Sebastião Romão César" 
-  },
- { 
-    "id": 207, 
-    "tipo": "restaurante", 
-    "nome": "Terral", 
-    "descricaoCurta": "O melhor açaí pós-praia.", 
-    "descricaoCompleta": "Ambiente rústico e natural. Açaí cremoso com frutas frescas e granolas artesanais.", 
-    "imagem": "https://images.unsplash.com/photo-1596649299486-4cdea56fd59d?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Rua Nova Iguaçu, 137" 
-  },
-  { 
-    "id": 108, 
-    "tipo": "ponto", 
-    "nome": "Rio Maresias", 
-    "descricaoCurta": "Canto esquerdo tranquilo.", 
-    "descricaoCompleta": "Onde o rio encontra o mar, criando um ambiente calmo perfeito para crianças brincarem.", 
-    "imagem": "https://images.unsplash.com/photo-1437652633673-cc02b9c67a1b?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Canto Esquerdo da Praia" 
-  },
-  { 
-    "id": 208, 
-    "tipo": "restaurante", 
-    "nome": "Badauê", 
-    "descricaoCurta": "Pé na areia rústico-chic.", 
-    "descricaoCompleta": "Frutos do mar e cozinha internacional com mesas na areia e vista privilegiada.", 
-    "imagem": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80", 
-    "localizacao": "Av. Francisco Loup, 901" 
+  {
+    "id": 5,
+    "nome": "Torre de Londres",
+    "descricao": "Palácio real histórico e fortaleza às margens do Rio Tâmisa.",
+    "descricaoCompleta": "A Torre de Londres é um palácio real histórico e fortaleza localizado às margens do Rio Tâmisa. Fundada por Guilherme o Conquistador em 1066, a torre serviu como palácio real, prisão, local de execuções, arsenal, tesouro e zoo real. Hoje, a Torre abriga as Joias da Coroa Britânica, incluindo o famoso diamante Cullinan e a coroa da Rainha Elizabeth. Os Beefeaters, guardas da Torre em trajes medievais, guiam tours diários.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/The_Tower_of_London_seen_from_the_river_Thames.jpg/1280px-The_Tower_of_London_seen_from_the_river_Thames.jpg",
+    "localizacao": "Tower of London, London EC3N 4AB, Reino Unido"
   }
 ]
