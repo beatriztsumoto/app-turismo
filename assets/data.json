@@ -1,0 +1,30 @@
+{
+  "pontosTuristicos": [
+    {
+      "id": "1",
+      "nome": "Museu Britânico",
+      "descricaoCurta": "Um dos maiores museus do mundo.",
+      "descricaoLonga": "O Museu Britânico abriga uma vasta coleção de arte e antiguidades mundiais, incluindo a Pedra de Roseta e os Mármores de Elgin.",
+      "imagem": "https://images.unsplash.com/photo-1514539079130-25950c84af65?q=80&w=1000",
+      "localizacao": "Great Russell St, London WC1B 3DG"
+    },
+    {
+      "id": "2",
+      "nome": "Palácio de Buckingham",
+      "descricaoCurta": "Residência oficial da Monarquia.",
+      "descricaoLonga": "Famoso pela cerimônia de Troca da Guarda, é o centro administrativo da monarquia britânica.",
+      "imagem": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?q=80&w=1000",
+      "localizacao": "London SW1A 1AA"
+    }
+  ],
+  "restaurantes": [
+    {
+      "id": "101",
+      "nome": "Duck & Waffle",
+      "descricaoCurta": "Vista surreal do alto.",
+      "descricaoLonga": "Aberto 24h, oferece pratos britânicos modernos com uma vista panorâmica de tirar o fôlego.",
+      "imagem": "https://images.unsplash.com/photo-1550966841-3ee32ca0803c?q=80&w=1000",
+      "localizacao": "110 Bishopsgate, London EC2N 4AY"
+    }
+  ]
+}

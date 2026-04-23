@@ -1,0 +1,165 @@
+[
+  { 
+    "id": 1, 
+    "tipo": "hero", 
+    "titulo": "Onde o Surf Encontra o Refúgio.", 
+    "subtitulo": "Explore as melhores ondas do litoral norte paulista.", 
+    "imagem": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1200&q=80", 
+    "tag": "DESTAQUE DO DIA" 
+  },
+  { 
+    "id": 101, 
+    "tipo": "ponto", 
+    "nome": "Canto do Moreira", 
+    "descricaoCurta": "O pico das ondas perfeitas.", 
+    "descricaoCompleta": "A área mais famosa de Maresias para surfistas experientes. Ondas tubulares e fortes. Ótimo também para assistir campeonatos.", 
+    "imagem": "https://images.unsplash.com/photo-1520116468816-95b69f847357?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Extremo Direito da Praia" 
+  },
+  { 
+    "id": 201, 
+    "tipo": "restaurante", 
+    "nome": "Nami Sushi Maresias", 
+    "descricaoCurta": "Japonês premium pé na areia.", 
+    "descricaoCompleta": "Culinária japonesa sofisticada com peixes frescos locais e vista deslumbrante para o mar.", 
+    "imagem": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Av. Francisco Loup, 1100" 
+  },
+  { 
+    "id": 102, 
+    "tipo": "ponto", 
+    "nome": "Trilha Paúba-Maresias", 
+    "descricaoCurta": "Vista panorâmica incrível.", 
+    "descricaoCompleta": "Uma trilha leve que liga as duas praias, passando pelo mirante com a melhor vista da região. Perfeito para fotos no pôr do sol.", 
+    "imagem": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Início na Rua Nova Iguaçu" 
+  },
+  { 
+    "id": 202, 
+    "tipo": "restaurante", 
+    "nome": "Os Alemães", 
+    "descricaoCurta": "Tradição e porções generosas.", 
+    "descricaoCompleta": "Restaurante clássico com buffet variado e pratos à la carte. Famoso pelas porções de frutos do mar bem servidas.", 
+    "imagem": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Av. Francisco Loup, 991" 
+  },
+  { 
+    "id": 301, 
+    "tipo": "clima", 
+    "temp": "28°C", 
+    "ondas": "4-6 ft", 
+    "mare": "Baixa 14:30" 
+  },
+  {  
+    "id": 103, 
+    "tipo": "ponto", 
+    "nome": "Cachoeira da Pedra Branca", 
+    "descricaoCurta": "Refúgio de água doce na mata.", 
+    "descricaoCompleta": "Acesso por trilha média, uma linda queda d'água com poço para banho cercado pela Mata Atlântica.", 
+    "imagem": "https://images.unsplash.com/photo-1546948630-1149ea60dc86?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Estrada do Rio Pardo, s/n" 
+  },
+  { 
+    "id": 203, 
+    "tipo": "restaurante", 
+    "nome": "Guadalupe", 
+    "descricaoCurta": "Tacos, Tequila e Surf Culture.", 
+    "descricaoCompleta": "Ambiente descontraído, ideal para jovens. Serve culinária mexicana e drinks variados.", 
+    "imagem": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Rua Sebastião R. César, 44" 
+  },
+  { 
+    "id": 104, 
+    "tipo": "ponto", 
+    "nome": "Praça do Surf", 
+    "descricaoCurta": "O coração de Maresias.", 
+    "descricaoCompleta": "Ponto de encontro central, com pista de skate, parquinho e local de eventos culturais.", 
+    "imagem": "https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Av. Francisco Loup, s/n" 
+  },
+  { 
+    "id": 204, 
+    "tipo": "restaurante", 
+    "nome": "Sorveteria Rochinha", 
+    "descricaoCurta": "Os picolés mais famosos do litoral.", 
+    "descricaoCompleta": "Clássico picolé do litoral paulista. Variedade imensa de sabores de frutas e cremosos.", 
+    "imagem": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Rua Nova Iguaçu, 20" 
+  },
+  { 
+    "id": 401, 
+    "tipo": "newsletter" 
+  },
+  { 
+    "id": 105, 
+    "tipo": "ponto", 
+    "nome": "Mirante das Galhetas", 
+    "descricaoCurta": "Pôr do sol cinematográfico.", 
+    "descricaoCompleta": "Mirante na estrada sentido Boiçucanga. Vista total das ilhas e do mar aberto.", 
+    "imagem": "https://images.unsplash.com/photo-1471922694854-ff1b63b20054?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "SP-055, Km 162" 
+  },
+  { 
+    "id": 205, 
+    "tipo": "restaurante", 
+    "nome": "Restaurante do Polaco", 
+    "descricaoCurta": "Frutos do mar simples e fresco.", 
+    "descricaoCompleta": "Ambiente familiar, preços justos e peixes grelhados na hora.", 
+    "imagem": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Rua Sebastião R. César, 100" 
+  },
+  { 
+    "id": 106, 
+    "tipo": "ponto", 
+    "nome": "Praia de Maresias (Geral)", 
+    "descricaoCurta": "5km de areia branca e badalação.", 
+    "descricaoCompleta": "A praia principal, com estrutura de quiosques, hotéis e o mar lindo para banho ou surf.", 
+    "imagem": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Av. Dr. Francisco Loup" 
+  },
+  { 
+    "id": 206, 
+    "tipo": "restaurante", 
+    "nome": "Empanadas Tucumanas", 
+    "descricaoCurta": "Sabor argentino em Maresias.", 
+    "descricaoCompleta": "Pequeno quiosque famoso pelas empanadas autênticas e alfajores artesanais.", 
+    "imagem": "https://images.unsplash.com/photo-1606131731446-5568d87113aa?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Beco das Cores" 
+  },
+  { 
+    "id": 107, 
+    "tipo": "ponto", 
+    "nome": "Beco das Cores", 
+    "descricaoCurta": "Arte urbana e lojinhas charmosas.", 
+    "descricaoCompleta": "Um corredor decorado com grafites, ideal para passear à noite e comprar artesanato local.", 
+    "imagem": "https://images.unsplash.com/photo-1555529771-835f59fc5efe?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Rua Sebastião Romão César" 
+  },
+ { 
+    "id": 207, 
+    "tipo": "restaurante", 
+    "nome": "Terral", 
+    "descricaoCurta": "O melhor açaí pós-praia.", 
+    "descricaoCompleta": "Ambiente rústico e natural. Açaí cremoso com frutas frescas e granolas artesanais.", 
+    "imagem": "https://images.unsplash.com/photo-1596649299486-4cdea56fd59d?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Rua Nova Iguaçu, 137" 
+  },
+  { 
+    "id": 108, 
+    "tipo": "ponto", 
+    "nome": "Rio Maresias", 
+    "descricaoCurta": "Canto esquerdo tranquilo.", 
+    "descricaoCompleta": "Onde o rio encontra o mar, criando um ambiente calmo perfeito para crianças brincarem.", 
+    "imagem": "https://images.unsplash.com/photo-1437652633673-cc02b9c67a1b?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Canto Esquerdo da Praia" 
+  },
+  { 
+    "id": 208, 
+    "tipo": "restaurante", 
+    "nome": "Badauê", 
+    "descricaoCurta": "Pé na areia rústico-chic.", 
+    "descricaoCompleta": "Frutos do mar e cozinha internacional com mesas na areia e vista privilegiada.", 
+    "imagem": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80", 
+    "localizacao": "Av. Francisco Loup, 901" 
+  }
+]
