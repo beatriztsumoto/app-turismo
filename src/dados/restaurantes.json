@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "nome": "Duck & Waffle",
+        "nome": "Duck & Waffle ",
         "descricao": "Aberto 24h e com uma vista panorâmica surreal do alto de um arranha-céu.",
         "descricaoCompleta": "O Duck & Waffle é um restaurante único em Londres, funcionando 24 horas por dia, 7 dias por semana, no 40º andar do arranha-céu Heron Tower. A vista panorâmica de Londres é simplesmente surreal, especialmente à noite. O prato assinatura — pato confit com waffle belga, ovo frito e mostarda com mel — é uma experiência gastronômica inesquecível. Reservas são altamente recomendadas, especialmente para o café da manhã ao nascer do sol.",
         "imagem": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800",
@@ -19,7 +19,7 @@
         "id": 3,
         "nome": "Bacchanalia",
         "descricao": "Mediterrâneo em Mayfair é muito mais do que um restaurante – é uma vibe.",
-        "descricaoCompleta": "O Bacchanalia é mais do que um restaurante — é uma experiência imersiva em Mayfair. Com decoração espetacular inspirada na mitologia grega, o espaço apresenta esculturas de mármore, afrescos e instalações artísticas de tirar o fôlego. A culinária mediterrânea celebra ingredientes frescos e técnicas refinadas. Do polvo grelhado ao perfeito ceviche, cada prato é uma obra de arte. O bar de coquetéis com tema mitológico complementa perfeitamente a experiência.",
+        "descricaoCompleta": "O Bacchanalia é mais do que um restaurante — é uma experiência imersiva em Mayfair. Com decoração magnífica inspirada na mitologia grega, o espaço apresenta esculturas de mármore, afrescos e instalações artísticas de tirar o fôlego. A culinária mediterrânea celebra ingredientes frescos e técnicas refinadas. Do polvo grelhado ao perfeito ceviche, cada prato é uma obra de arte. O bar de coquetéis com tema mitológico complementa perfeitamente a experiência.",
         "imagem": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800",
         "localizacao": "1 Mount St, London W1K 3NA, Mayfair"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "nome": "Tamarind",
         "descricao": "Decorado com mais de 20 mil garrafas, serve pratos de trattoria e bebidas.",
-        "descricaoCompleta": "O Tamarind é um restaurante icônico em Mayfair, pioneiro na culinária indiana de fine dining em Londres. Ganhador de uma estrela Michelin, o restaurante oferece pratos da tradição mughal do norte da Índia com técnicas contemporâneas. A decoração elegante com tons dourados e colunatas cria uma atmosfera de palácio indiano. Destaques do menu incluem o frango tandoori perfeito, o cordeiro raan e os kebabs de Seekh preparados em fornos tandoor à vista dos clientes.",
+        "descricaoCompleta": "O Tamarind é um restaurante icônico em Mayfair, pioneiro na culinária indiana de fine dining em Londres. Ganhador de uma estrela Michelin, o restaurante oferece pratos da tradição mughal do norte da Índia com técnicas contemporâneas. A decoração elegante composta por tons dourados e colunatas cria uma atmosfera de palácio indiano. Destaques do menu incluem o frango tandoori perfeito, o cordeiro raan e os kebabs de Seekh preparados em fornos tandoor à vista dos clientes.",
         "imagem": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800",
         "localizacao": "20 Queen St, London W1J 5PR, Mayfair"
     },
