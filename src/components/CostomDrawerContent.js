@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
     },
     appName: {
         color: COLORS.text,
-        fontSize: 22,
+        fontSize: 23,
         fontWeight: '700',
         fontFamily: 'serif',
     },
