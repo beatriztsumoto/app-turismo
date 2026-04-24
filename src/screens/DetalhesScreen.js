@@ -10,8 +10,24 @@ import {
 import { COLORS, SPACING, BORDER_RADIUS } from '../constants/theme.js';
 
 export default function DetalhesScreen({ route, navigation }) {
-    const { item, tipo } = route.params;
+    // 1. TRAVA DE SEGURANÇA: Extração segura dos parâmetros usando o "?."
+    // Adicionei o fallback para "pontoTuristico" caso você tenha usado o código anterior
+    const item = route?.params?.item || route?.params?.pontoTuristico;
+    const tipo = route?.params?.tipo;
 
+    // 2. FALLBACK: Se der "refresh" na web ou o item não chegar, mostra essa tela em vez de quebrar o app
+    if (!item) {
+        return (
+            <View style={[styles.container, { justifyContent: 'center', alignItems: 'center' }]}>
+                <Text style={{ color: COLORS?.text || '#fff', fontSize: 18 }}>Nenhum dado encontrado!</Text>
+                <TouchableOpacity onPress={() => navigation.goBack()} style={{ marginTop: 20, padding: 10 }}>
+                    <Text style={{ color: COLORS?.accent || '#aaa', fontSize: 16 }}>← Voltar</Text>
+                </TouchableOpacity>
+            </View>
+        );
+    }
+
+    // 3. RENDERIZAÇÃO NORMAL: O item existe com segurança
     return (
         <View style={styles.container}>
             <StatusBar barStyle="light-content" />
@@ -62,6 +78,7 @@ export default function DetalhesScreen({ route, navigation }) {
     );
 }
 
+// Seus estilos foram mantidos exatamente como você criou!
 const styles = StyleSheet.create({
     container: {
         flex: 1,
